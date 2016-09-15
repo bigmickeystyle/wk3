@@ -12,16 +12,3 @@ button.addEventListener('click', function(){
         alert("this is not valid JSON");
     }
 });
-
-//
-// textbox.addEventListener('input',function(){
-//     try {
-//         var text = this.value;
-//         var json = JSON.parse(text);
-//     } catch (e) {
-//         console.log(e);
-//
-//     } finally {
-//         console.log(json);
-//     }
-// });
